@@ -1,0 +1,24 @@
+# Основные зависимости
+aiogram==2.25.2
+python-dotenv==1.0.0
+
+# База данных
+tortoise-orm==0.19.3
+asyncpg==0.27.0  # Для PostgreSQL (опционально)
+
+# Обработка видео
+opencv-python==4.7.0.72
+ffmpeg-python==0.2.0
+numpy==1.24.3
+
+# Платежная система
+python-dateutil==2.9.0
+
+# Дополнительные утилиты
+cachetools==5.3.1 
+pydantic==1.10.7  
+
+# Для вебхуков (если используется)
+uvicorn==0.22.0
+fastapi==0.95.2
+python-multipart==0.0.6
